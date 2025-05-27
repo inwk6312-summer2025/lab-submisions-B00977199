@@ -1,0 +1,40 @@
+routers:
+ - name: "Router1"
+   management_ip: "192.168.1.101"
+   interfaces:
+    - name: "GigabitEthernet2"
+      ip_address: "192.168.2.1"
+      netmask: "255.255.255.0"
+    - name: "GigabitEthernet3"
+      ip_address: "192.168.3.1"
+      netmask: "255.255.255.0"
+
+ - name: "Router2"
+   management_ip: "192.168.1.102"
+   interfaces:
+   - name: "GigabitEthernet2"
+     ip_address: "192.168.2.2"
+     netmask: "255.255.255.0"
+   - name: "GigabitEthernet3"
+     ip_address: "192.168.3.2"
+     netmask: "255.255.255.0"
+
+ - name: "Router3"
+   management_ip: "192.168.1.103"
+   interfaces:
+   - name: "GigabitEthernet2"
+     ip_address: "192.168.2.3"
+     netmask: "255.255.255.0"
+   - name: "GigabitEthernet3"
+     ip_address: "192.168.3.3"
+     netmask: "255.255.255.0"
+
+ - name: "Router4"
+   management_ip: "192.168.1.104"
+   interfaces:
+   - name: "GigabitEthernet2"
+     ip_address: "192.168.2.4"
+     netmask: "255.255.255.0"
+   - name: "GigabitEthernet3"
+     ip_address: "192.168.3.4"
+     netmask: "255.255.255.0"
